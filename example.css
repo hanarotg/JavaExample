@@ -1,0 +1,106 @@
+
+#container-all {
+	width : 940px;
+	margin : 0 auto;
+	padding : 0;
+	}
+
+/* 헤더 */
+#header {
+	padding : 10px 10px 10px 10px;
+	}
+
+#header a {
+	color : #292b2c;
+	text-decoration: none;
+}
+
+#header a:hover {
+	color : #f0ad4e; 
+}
+
+#header-banner {
+		margin : 0;
+		padding-left : 10px;
+		width : 100%;
+		height : 70px;
+		display: table;
+		background-color : #5cb85c;
+}
+
+#header-menu {
+		margin : 0 0 0 0;
+		padding : 10px;
+		width : 100%;
+		background-color : #f7f7f7;
+}
+
+/* 헤더 메뉴 정렬 */
+#header ul {
+		list-style-type : none;
+		margin : 0;
+		padding : 0 10px;
+		overflow : hidden;
+	}
+	
+#header li {
+    float : left;
+	padding-right : 20px;
+}
+
+/* 메인 콘텐츠 */
+#content {
+	padding : 10px;
+	width : 100%;
+	}
+	
+#content h3 {
+	font-weight : bold;
+	}
+
+#content-banner {
+	margin : 0;
+	padding : 10px 10px 10px 10px;
+	width : 600px;
+	float : left;
+	}
+
+#content-sidebar {
+	margin : 0;
+	padding : 10px 10px 10px 10px;
+	width : 300px;
+	float : right;
+	}
+	
+/* footer */
+#footer {
+	margin : 0;
+	padding : 30px 10px 10px 10px;
+	width : 100%;
+	clear : both;
+	}
+
+@media ( max-width : 480px ) {
+		#container-all {
+			width : auto;
+		}
+		
+		#header {
+			padding : 0px 0px 0px 0px;
+		}
+		
+		#header-menu {
+			font-size : 1.25em;
+		}
+		
+		#content-banner {
+			float: none;
+			width: auto;
+        }
+		
+        #content-sidebar {
+			float: none;
+			width: auto;
+        }
+		
+}
